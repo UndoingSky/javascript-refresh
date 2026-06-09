@@ -1,0 +1,1 @@
+console.log("JavaScript Refresh Day 1");
