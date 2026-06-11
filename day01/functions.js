@@ -1,5 +1,5 @@
 function greet(name) {
-    return `Hello, $(name)!`;
+    return `Hello, ${name}!`;
 }
 
 console.log(greet("Aryan"));
@@ -15,4 +15,14 @@ function introduce(name, age) {
 }
 
 console.log(introduce("Aryan", 20));
+
+// function sayHello() {return "Hello World!";}
+
+function sayHello() {
+  return "Hello World";
+}
+
+let greeting = sayHello();
+
+console.log(greeting);
 
